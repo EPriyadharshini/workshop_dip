@@ -1,6 +1,6 @@
 # workshop_dip
-##name :priyadharshini
-## reg no :212223230159
+## Name :priyadharshini
+## Reg no :212223230159
 
 ## aim:
     To read detect the real time object using YOLOV python.
@@ -8,13 +8,16 @@
 ## program :
  import cv2
  import numpy as np
+ 
  # Load YOLOv4 network
  net = cv2.dnn.readNet("yolov4.weights", "yolov4.cfg")
+ 
  # Load the COCO class labels
  with open("coco.names", "r") as f:
     classes = [line.strip() for line in f.readlines()]
  layer_names = net.getLayerNames()
  output_layers = [layer_names[i - 1] for i in net.getUnconnectedOutLayers().flatten()]
+ 
  # Set up video capture for webcam
  cap = cv2.VideoCapture(0)
  while True:
@@ -23,8 +26,8 @@
     # Prepare the image for YOLOv4
     blob = cv2.dnn.blobFromImage(frame, 1/255.0, (416, 416), swapRB=True, crop=False)
     net.setInput(blob)
+
     
-     
   # Get YOLO output
     outputs = net.forward(output_layers)
     
@@ -73,6 +76,7 @@
 
  ### OUTPUT:
 
+![Uploading image.png…]()
 
 
 
