@@ -76,8 +76,7 @@
 
  ### OUTPUT:
 
-![Uploading image.png…]()
-
+![image](https://github.com/user-attachments/assets/4ececdf5-cd25-4fb4-8c4d-8f37d1498ad7)
 
 
 
