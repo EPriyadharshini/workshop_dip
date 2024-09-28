@@ -76,7 +76,8 @@
 
  ### OUTPUT:
 
-![image](https://github.com/user-attachments/assets/4ececdf5-cd25-4fb4-8c4d-8f37d1498ad7)
+<img width="177" alt="Screenshot 2024-09-26 200025" src="https://github.com/user-attachments/assets/f9272abe-e7bb-4c62-81aa-cece9b1644e7">
+
 
 
 
